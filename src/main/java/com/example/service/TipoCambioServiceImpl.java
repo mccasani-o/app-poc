@@ -65,7 +65,6 @@ public class TipoCambioServiceImpl implements TipoCambioService {
 
 
     private TipoCambioDto convertirADto(TipoCambio tipoCambio) {
-
         return TipoCambioMapper.mapToTipoCambioDto(tipoCambio);
     }
 }

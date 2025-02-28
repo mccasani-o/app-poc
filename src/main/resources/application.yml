@@ -9,3 +9,8 @@ spring:
       mode: always
   jpa:
     defer-datasource-initialization: true
+
+security:
+  jwt:
+    secret-key: bWkgY2xhdmUgZXMgbXV5IHNlZ3VyYSAxMjM0NTY3OCBhYmNkZWZn
+    expiration-in-minutes: '20'
